@@ -1,0 +1,277 @@
+body {
+    color: #333333;
+    font-size: 12px;
+}
+
+
+/*top部分*/
+.settlement{
+    min-width: 1200px;
+}
+.top{
+    height: 90px;
+    background-color: #000000;
+    /*line-height: 90px;*/
+}
+.top a{
+    color: #999999;
+    text-decoration: none;
+    font-size: 12px;
+}
+.left{
+    margin-top: 22px;
+    margin-left: 16px;
+}
+.left-two{
+    margin-top: 10px;
+}
+.right{
+    padding-left: 10px;
+    float: right;
+}
+.right a{
+    padding-left: 20px;
+}
+/*top部分 end*/
+
+/*流程标题部分*/
+.flow{
+    height: 86px;
+    border-bottom: 6px solid #000000;
+
+}
+.steps{
+    font-size: 14px;
+    text-align: center;
+    line-height: 80px;
+}
+
+/*流程标题部分end*/
+/*main部分*/
+.main{
+    /*height: 1302px;*/
+    border: 1px solid #E5E5E5;
+}
+.mBtn{
+    height: 94px;
+}
+.return a{
+    color: #333333;
+    text-decoration: none;
+    line-height:94px;
+    display: inline;
+    font-size: 14px;
+}
+.continue{
+    background-color: #000;
+    color: #ffffff;
+    width: 78px;
+    height: 38px;
+    font-size: 14px;
+    cursor: pointer;
+    float: right;
+    border-radius: 0;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+}
+.return{
+    border-bottom: 1px solid #e5e5e5;
+}
+.info-in{
+    padding-top: 34px;
+}
+.Receipt-info{
+    height: 90px;
+}
+.s-title{
+    font-family: 微软雅黑;
+    font-size: 22px;
+}
+.Receipt-hint{
+    color: #666666;
+}
+.space-title{
+    float: right;
+    padding-right: 14px;
+    line-height: 30px;
+}
+.input-info{
+    margin-bottom: 12px;
+}
+.input-style{
+    width: 388px;
+    height: 30px;
+    border: none;
+    background-color: #e5e5e5;
+    outline: none;
+    padding-left: 6px;
+    line-height: 30px;
+}
+.choose{
+    width: 388px;
+    height: 30px;
+    border: none;
+    background-color: #e5e5e5;
+    outline: none;
+    padding-left: 6px;
+}
+.choose-prv{
+    width:388px;
+    border: none;
+    background-color: #e5e5e5;
+    outline: none;
+    padding-left: 6px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.choose-city{
+    width:388px;
+    border: none;
+    background-color: #e5e5e5;
+    outline: none;
+    padding-left: 6px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.choose-town{
+    width:388px;
+    border: none;
+    background-color: #e5e5e5;
+    outline: none;
+    padding-left: 6px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.choose-express{
+    width:388px;
+    border: none;
+    background-color: #e5e5e5;
+    outline: none;
+    padding-left: 6px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.choose-date{
+    width:388px;
+    border: none;
+    background-color: #e5e5e5;
+    outline: none;
+    padding-left: 6px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.input-checkbox{
+    width: 18px;
+    height: 18px;
+    background-color: #FFFFFF;
+}
+.agree a{
+    color: #333333;
+    text-decoration: underline;
+}
+.agreement{
+    margin-top: 12px;
+}
+.way-title{
+    font-family: 微软雅黑;
+    font-size: 22px;
+}
+.express{
+    margin-bottom: 10px;
+}
+.express-way{
+    margin-top: 26px;
+}
+.way-radio{
+    width: 18px;
+    height: 18px;
+}
+.radio-details p{
+    margin-top: 6px;
+}
+.unneed span{
+    line-height: 26px;
+}
+.need{
+    margin-top: 20px;
+}
+.foot-details{
+    margin-top: 36px;
+}
+.foot-btn{
+    height: 142px;
+    border-top: 1px solid #e5e5e5;
+}
+.in{
+    border-bottom: none;
+}
+.foot-all{
+    padding-top: 26px;
+}
+.bill{
+    margin-bottom: 60px;
+}
+
+.i-area{
+    margin-top: 40px;
+}
+.i-area a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.i-area a span{
+    padding: 6px 14px;
+    border: 1px solid #e5e5e5;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+}
+.choose-invoice{
+    width:200px;
+    border: none;
+    background-color: #e5e5e5;
+    outline: none;
+    padding-left: 6px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+/*main部分end*/
+
+
+.invoice-text{
+    padding-top: 28px;
+}
+.choose-invoice-lg{
+    margin-top: 20px;
+}
+.input-invoice-name{
+    width: 388px;
+    height: 30px;
+    border: none;
+    background-color: #e5e5e5;
+    outline: none;
+    padding-left: 6px;
+    line-height: 30px;
+}
+.invoice-name{
+    padding-top: 6px;
+}
+.invoice-row{
+    margin-top: 10px;
+}
+.invoice-type{
+    margin-top: 20px;
+}
+.invoice-row{
+    display: none;
+}
+.type-invoice{
+    display: none;
+}
+.steps-now{
+    font-weight: bold;
+}

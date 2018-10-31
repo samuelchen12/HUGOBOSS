@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>QISHON 线上商店 结算</title>
+
+    <link rel="stylesheet" href="../css/plugin/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/plugin/font-awesome.min.css">
+    <link href="../css/ux/base.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../css/qs-settlement.css">
+    <link rel="stylesheet" href="../css/ux/qsoverwritten.css">
+    <!--[if lt IE 9]>
+   <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+   <script src="//cdn.bootcss.com/selectivizr/1.0.2/selectivizr-min.js"></script>
+   <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="settlement">
+<div class="container">
+   <div class="row top">
+       <div class="col-lg-12 col-xs-12">
+           <div class="row left">
+               <div class="col-lg-5 col-xs-5">
+                   <div class="col-lg-12 col-xs-12 left-one">
+                       <a href="index.html">＜ 返回首页</a>
+                   </div>
+                   <div class="col-lg-12 col-xs-12 left-two">
+                       <a href="shopping-car.html">＜ 返回购物袋</a>
+                   </div>
+               </div>
+               <div class="col-lg-7 col-xs-7 right">
+                   <a href="index.html" class="right-title"><img src="../images/QISHONB.jpg" alt=""></a>
+               </div>
+           </div>
+       </div>
+   </div>
+   <div class="row flow">
+       <div class="col-lg-12 col-xs-12 flow">
+           <div class="steps">
+               <span class="steps-now">1 地址 & 配送　＞　</span>
+               <span>2 支付　＞　</span>
+               <span>3 浏览 & 提交　</span>
+           </div>
+       </div>
+   </div>
+   <div class="row main">
+       <div class="col-lg-12 col-xs-12">
+           <div class="row mBtn">
+               <div class="col-lg-10 col-xs-10 col-lg-offset-1">
+                   <div class="return">
+                       <a href="shopping-car.html"><i class="fa fa-angle-left" aria-hidden="true"></i> 返回</a>
+                       <button class="continue" type="button" value="继续">继续 <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                   </div>
+               </div>
+               <div class="col-lg-1 col-xs-1"></div>
+           </div>
+       </div>
+       <div class="col-lg-12 col-xs-12">
+           <div class="row Receipt-info">
+               <div class="col-lg-9 col-xs-9 col-lg-offset-3">
+                   <div class="info-in">
+                       <span class="s-title">收货信息</span></br>
+                       <span class="Receipt-hint"></span>
+                   </div>
+               </div>
+           </div>
+           <div class="row input-info">
+               <div class="col-lg-3 col-xs-3">
+                   <span class="space-title">* 姓名</span>
+               </div>
+               <div class="col-lg-4 col-xs-4">
+                   <input class="input-style dialog-style" type="text"/>
+               </div>
+               <div class="col-lg-5 col-xs-5 "></div>
+           </div>
+           <div class="row input-info">
+               <div class="col-lg-3 col-xs-3">
+                   <span class="space-title">* 省</span>
+               </div>
+               <div class="col-lg-4 col-xs-4">
+                   <select class="choose-prv prv dialog-style">
+                       <option value="请选择">请选择</option>
+                       <option value="北京市">
+                           北京市
+                       </option>
+                       <option value="天津市">
+                           天津市
+                       </option>
+                       <option value="上海市">
+                           上海市
+                       </option>
+                       <option value="重庆市">
+                           重庆市
+                       </option>
+                       <option value="河北省">
+                           河北省
+                       </option>
+                       <option value="山西省">
+                           山西省
+                       </option>
+                       <option value="辽宁省">
+                           辽宁省
+                       </option>
+                       <option value="吉林省">
+                           吉林省
+                       </option>
+                       <option value="黑龙江省">
+                           黑龙江省
+                       </option>
+                       <option value="江苏省">
+                           江苏省
+                       </option>
+                       <option value="浙江省">
+                           浙江省
+                       </option>
+                       <option value="安徽省">
+                           安徽省
+                       </option>
+                       <option value="福建省">
+                           福建省
+                       </option>
+                       <option value="江西省">
+                           江西省
+                       </option>
+                       <option value="山东省">
+                           山东省
+                       </option>
+                       <option value="河南省">
+                           河南省
+                       </option>
+                       <option value="湖北省">
+                           湖北省
+                       </option>
+                       <option value="湖南省">
+                           湖南省
+                       </option>
+                       <option value="广东省">
+                           广东省
+                       </option>
+                       <option value="海南省">
+                           海南省
+                       </option>
+                       <option value="四川省">
+                           四川省
+                       </option>
+                       <option value="贵州省">
+                           贵州省
+                       </option>
+                       <option value="云南省">
+                           云南省
+                       </option>
+                       <option value="陕西省">
+                           陕西省
+                       </option>
+                       <option value="甘肃省">
+                           甘肃省
+                       </option>
+                       <option value="青海省">
+                           青海省
+                       </option>
+                       <option value="台湾省">
+                           台湾省
+                       </option>
+                       <option value="广西壮族自治区">
+                           广西壮族自治区
+                       </option>
+                       <option value="内蒙古自治区">
+                           内蒙古自治区
+                       </option>
+                       <option value="西藏自治区">
+                           西藏自治区
+                       </option>
+                       <option value="宁夏回族自治区">
+                           宁夏回族自治区
+                       </option>
+                       <option value="新疆维吾尔自治区">
+                           新疆维吾尔自治区
+                       </option>
+                       <option value="香港特别行政区">
+                           香港特别行政区
+                       </option>
+                       <option value="澳门特别行政区">
+                           澳门特别行政区
+                       </option>
+                   </select>
+               </div>
+               <div class="col-lg-5 col-xs-5"></div>
+           </div>
+           <div class="row input-info">
+               <div class="col-lg-3 col-xs-3">
+                   <span class="space-title">* 市</span>
+               </div>
+               <div class="col-lg-4 col-xs-4">
+                   <select class="choose-city  city dialog-style">
+                       <option value="请选择">请选择</option>
+                   </select>
+               </div>
+               <div class="col-lg-5 col-xs-5"></div>
+           </div>
+           <div class="row input-info">
+               <div class="col-lg-3 col-xs-3">
+                   <span class="space-title">* 区</span>
+               </div>
+               <div class="col-lg-4 col-xs-4">
+                   <select class="choose-town  town dialog-style">
+                       <option value="请选择">请选择</option>
+                   </select>
+               </div>
+               <div class="col-lg-5 col-xs-5"></div>
+           </div>
+           <div class="row input-info">
+               <div class="col-lg-3 col-xs-3">
+                   <span class="space-title">* 详细地址</span>
+               </div>
+               <div class="col-lg-4 col-xs-4">
+                   <input class="input-style dialog-style" type="text"/>
+               </div>
+               <div class="col-lg-5 col-xs-5"></div>
+           </div>
+           <div class="row input-info">
+               <div class="col-lg-3 col-xs-3">
+                   <span class="space-title">* 邮编</span>
+               </div>
+               <div class="col-lg-4 col-xs-4">
+                   <input class="input-style dialog-style" type="text"/>
+               </div>
+               <div class="col-lg-5 col-xs-5"></div>
+           </div>
+           <div class="row input-info">
+               <div class="col-lg-3 col-xs-3">
+                   <span class="space-title">* 移动电话</span>
+               </div>
+               <div class="col-lg-4 col-xs-4">
+                   <input class="input-style dialog-style" type="text"/>
+               </div>
+               <div class="col-lg-5 col-xs-5"></div>
+           </div>
+           <div class="row input-info">
+               <div class="col-lg-3 col-xs-3">
+                   <span class="space-title">* Email地址</span>
+               </div>
+               <div class="col-lg-4 col-xs-4">
+                   <input class="input-style dialog-style" type="text" value="undefined"/>
+               </div>
+               <div class="col-lg-5 col-xs-5"></div>
+           </div>
+           <div class="row ">
+               <div class="col-lg-4 col-xs-4 col-lg-offset-3">
+                   <div class="row agreement">
+                       <div class="col-lg-1 col-xs-1">
+                           <input class="input-checkbox" type="checkbox"/>
+                       </div>
+                       <div class="col-lg-11 col-xs-11">
+                           <span class="agree">我愿意订阅QISHON官方网站相关邮件，接收来自QISHON官方网站的关于全新产品、专享优惠、生活时尚及潮流的相关资讯。此订阅可以随时被取消。<a
+                                   href="#">隐私声明</a>。</span>
+                       </div>
+                   </div>
+                   <div class="row express">
+                       <div class="col-lg-12 col-xs-12 express-way">
+                           <h3 class="way-title">配送方式</h3>
+                       </div>
+                   </div>
+                   <div class="row ">
+                       <div class="col-lg-1 col-xs-1">
+                           <select class="choose-express">
+                               <option value="顺丰快递">顺丰快递</option>
+                               <option value="申通快递">申通快递</option>
+                               <option value="中通快递">中通快递</option>
+                               <option value="邮政小包">邮政小包</option>
+                               <option value="韵达快递">韵达快递</option>
+                               <option value="百世汇通">百世汇通</option>
+                           </select>
+                       </div>
+
+                   </div>
+                   <div class="row">
+                       <div class="col-lg-12 col-xs-12 express-way">
+                           <h3 class="way-title">送货时间</h3>
+                       </div>
+                   </div>
+
+               </div>
+
+           </div>
+           <div class="row input-info">
+               <!--<div class="col-lg-3 col-xs-3">-->
+                   <!--<span class="space-title">* 送货时间</span>-->
+               <!--</div>-->
+               <div class="col-lg-4 col-xs-4 col-lg-offset-3 bill">
+                   <select class="choose-date">
+                       <option value="工作日或周末">工作日或周末</option>
+                       <option value="工作日">工作日</option>
+                       <option value="周末">周末</option>
+                   </select>
+                   <div class="row ">
+                       <div class="col-lg-12 col-xs-12 express-way">
+                           <h3 class="way-title">发票信息</h3>
+                           <div class="row need">
+                               <div class="col-lg-1 col-xs-1">
+                                   <input class="input-checkbox unneed-checkbox" name="need" checked="checked" type="radio"/>
+                               </div>
+                               <div class="col-lg-11 col-xs-11 unneed">
+                                   <span>不需要</span>
+                               </div>
+                           </div>
+                           <div class="row need">
+                               <div class="col-lg-1 col-xs-1">
+                                   <input class="input-checkbox need-checkbox" name="need" type="radio"/>
+                               </div>
+                               <div class="col-lg-11 col-xs-11 unneed">
+                                   <span>需要</span>
+                               </div>
+                           </div>
+                           <div class="row invoice-type type-invoice">
+                               <div class="col-lg-1 col-xs-1">
+                                   <input class="input-checkbox personal-invoice" name="type" type="radio" checked="checked"/><br/><br/>
+                                   <input class="input-checkbox company-invoice" name="type" type="radio"/>
+                               </div>
+                               <div class="col-lg-11 col-xs-11 unneed">
+                                   <span>个人</span><br/><br/>
+                                   <span>公司</span>
+                               </div>
+                           </div>
+                           <div class="row type-invoice">
+                               <div class="col-lg-2 col-xs-2 col-lg-pull-2">
+                                 <p class="invoice-text">发票内容</p>
+                               </div>
+                               <div class="col-lg-1 col-xs-1 col-lg-pull-2 choose-invoice-lg">
+                                   <select class="choose-invoice">
+                                       <option value="明细" selected="selected">明细</option>
+                                       <option value="服装">服装</option>
+                                   </select>
+                               </div>
+                           </div>
+                           <div class="row invoice-row">
+                               <div class="col-lg-2 col-xs-2 col-lg-pull-2">
+                                   <p class="invoice-name">发票抬头</p>
+                               </div>
+                               <div class="col-lg-1 col-xs-1 col-lg-pull-2 ">
+                                   <input type="text" class="input-invoice-name" />
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-lg-5 col-xs-5"></div>
+           </div>
+
+       </div>
+       <div class="row mBtn">
+           <div class="col-lg-10 col-xs-10 col-lg-offset-1">
+               <div class="row foot-btn">
+                   <div class="col-lg-12 col-xs-12 foot-all">
+                       <div class="col-lg-3 col-xs-3">
+                           <div class="return in">
+                               <a href="shopping-car.html"><i class="fa fa-angle-left" aria-hidden="true"></i> 返回</a>
+                           </div>
+                       </div>
+                       <div class="col-lg-5 col-xs-5 foot-details">
+                           <span>我在此同意启尚商城(上海)商贸有限公司将我在QISHON网上商店购买记录的相关信息传输到QISHON AG，以使得我的账户中显示此购买记录。</span>
+                       </div>
+                       <div class="col-lg-1 col-xs-1 i-area">
+                           <a class="i-hint" href="#"><span>i</span></a>
+                       </div>
+                       <div class="col-lg-3 col-xs-3">
+                           <button class="continue" type="button" value="继续">继续 <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="col-lg-1 col-xs-1"></div>
+       </div>
+   </div>
+</div>
+</div>
+<!--公共底部部分-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-xs-12 footer_tab">
+                <div class="footer-line"></div>
+                <div class="col-lg-2 col-xs-2 top-tag">
+                    <div class="categoryBrandBox">
+                        <h4>
+                            <a href="#"> QISHON</a>
+                        </h4>
+                        <div class="subCats">
+                            <ul>
+                                <li>
+                                    <a href="#"> 新品上市</a>
+                                </li>
+                                <li>
+                                    <a href="#"> 男装</a>
+                                </li>
+                                <li>
+                                    <a href="#"> 女装</a>
+                                </li>
+                                <li>
+                                    <a href="#"> 搭配造型</a>
+                                </li>
+                                <li>
+                                    <a href="#"> 礼品中心</a>
+                                </li>
+                                <li>
+                                    <a href="#"> 香氛系列</a>
+                                </li>
+                                <li>
+                                    <a href="#"> 特别专题</a>
+                                </li>
+                                <li>
+                                    <a href="#"> Man of Today</a>
+                                </li>
+                                <li>
+                                    <a href="#"> Fashion Show</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-xs-2 top-tag">
+                    <div class="categoryBrandBox">
+                        <h4>
+                            <a href="#">  QISHON</a>
+                        </h4>
+                        <div class="subCats">
+                            <ul>
+                                <li>
+                                    <a href="#"> 新品上市</a>
+                                </li>
+                                <li>
+                                    <a href="#"> 男装</a>
+                                </li>
+                                <li>
+                                    <a href="#"> 女装</a>
+                                </li>
+                                <li>
+                                    <a href="#"> 搭配造型</a>
+                                </li>
+                                <li>
+                                    <a href="#"> 特别专题</a>
+                                </li>
+                                <li>
+                                    <a href="#"> Fashion Show</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-xs-2 top-tag">
+                    <div class="categoryBrandBox">
+                        <h4>
+                            <a href="#">  QISHON</a>
+                        </h4>
+                        <div class="subCats">
+                            <ul>
+                                <li>
+                                    <a href="#"> 新品上市</a>
+                                </li>
+                                <li>
+                                    <a href="#"> 男装</a>
+                                </li>
+                                <li>
+                                    <a href="#"> 女装</a>
+                                </li>
+                                <li>
+                                    <a href="#"> 搭配造型</a>
+                                </li>
+                                <li>
+                                    <a href="#"> 牛仔裤款型指南</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-xs-2 top-tag">
+                    <div class="categoryBrandBox">
+                        <h4>
+                            <a href="#">  QISHON</a>
+                        </h4>
+                        <div class="subCats">
+                            <ul>
+                                <li>
+                                    <a href="#"> 新品上市</a>
+                                </li>
+                                <li>
+                                    <a href="#"> 男装</a>
+                                </li>
+                                <li>
+                                    <a href="#"> 搭配造型</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-xs-2 top-tag">
+                    <div class="categoryBrandBox">
+                        <h4>
+
+                            <a href="#">  QISHON</a>
+
+                        </h4>
+                        <div class="subCats">
+                            <ul>
+                                <li>
+                                    <a href="#"> 男装</a>
+                                </li>
+                                <li>
+                                    <a href="#"> 女装</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xs-3 footer-left">
+                    <div class="helpcenter">
+                        <h4>帮助中心</h4>
+                        <ul>
+                            <li><a href="#">帮助联络信息</a></li>
+                            <li><a href="#">配送服务</a></li>
+                            <li><a href="#">售后服务</a></li>
+                            <li><a href="#">七天无忧退货</a></li>
+                            <li><a href="#">免费改衣</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xs-3 footer-center">
+                    <div class="related-sites">
+                        <h4>QS相关站点</h4>
+                        <ul>
+                            <li><a href="#">qishon.com</a></li>
+                            <li><a href="#">寻找店铺</a></li>
+                            <li><a href="#">营销</a></li>
+                            <li><a href="#">职位</a></li>
+                            <li><a href="#">媒体服务</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xs-6 electronic-journals">
+                    <div class="electronic-journals-left">
+                        <h4> QISHON电子期刊</h4>
+                        <p>通过订阅 QISHON网上商店电子期刊，了解我们的最新产品。</p>
+                        <div class="sendEmail">
+                            <input type="email" placeholder="Email" name="email" class="form-control reg-width dialog-style borders">
+                            <button class="sendEmail-btn"><span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></button>
+                        </div>
+                        <div class="follow">
+                            <h4>关注我们</h4>
+                            <div class="follow_top">
+                                <div class="tags"><a href="#" target="_blank">
+                                 <span class="fa-stack fa-2x weixin">
+                                  <i class="fa fa-square fa-stack-2x weibo_bg"></i>
+                                  <i class="fa fa-weibo fa-stack-1x weibo_cl"></i>
+                                </span></a><span>官方微博</span>
+                                </div>
+                                <div class="tags"><a href="#" target="_blank">
+                            <span class="fa-stack fa-2x qq">
+                                  <i class="fa fa-square fa-stack-2x qq_bg"></i>
+                                  <i class="fa fa-qq fa-stack-1x qq_cl"></i>
+                                </span></a><span>腾讯QQ</span>
+                                </div>
+                                <div class="tags"><a href="#" onclick="return false;">
+                                    <img src="../images/qrcode.jpg"></a><span>官方微信</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <ul class="col-lg-4 col-xs-4 base_left  ">
+                <li>国家 :<a href="#">中国 </a>&nbsp;|&nbsp;&nbsp;
+                </li>
+                <li><a href="#">隐私声明</a>&nbsp;|&nbsp;&nbsp;</li>
+                <li><a href="#">条款及条件</a>&nbsp;|&nbsp;&nbsp;</li>
+                <li><a href="#">使用条款</a></li>
+            </ul>
+            <div class="col-lg-3 col-xs-3 base_right">
+                <p class="copyright"> © 2015 QI SHON &nbsp;&nbsp; | &nbsp;&nbsp; All rights reserved.</p>
+            </div>
+        </div>
+        <div class="footer_height"></div>
+    </div>
+</div>
+
+<!--公共底部部分end-->
+</body>
+<script src="../js/plugin/jquery-1.11.0.min.js"></script>
+<script src="../js/plugin/bootstrap.js"></script>
+<script src="../js/bg-color.js"></script>
+<script src="../js/settlement.js"></script>
+</html>

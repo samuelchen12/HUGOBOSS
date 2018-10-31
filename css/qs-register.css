@@ -1,0 +1,150 @@
+.register{
+    min-width: 1200px;
+    color: #333333;
+    /*font-family:微软雅黑;*/
+    font-size: 12px;
+}
+/*外包栏*/
+.breadcrumb a{
+    font-size: 12px;
+    padding:0 1.6px 3.2px;
+    color: #000;
+    text-decoration:none;
+}
+.breadcrumb-background{
+    margin-top: 8px;
+    background-color: #ffffff;
+    font-family:微软雅黑;
+}
+.breadcrumb-last{
+    font-weight: normal;
+    color: #000 !important;
+}
+/*中间文字*/
+.register-text{
+    font-family: 微软雅黑;
+    margin-left: 374px;
+}
+.register-text h3{
+    font-size: 18px;
+    /*margin-left: 374px;*/
+    margin-top: 0px;
+    color: #000;
+
+}
+.register-text h4{
+    font-size: 14px;
+    margin: inherit;
+    /*margin-left: 374px;*/
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+/*.register-text p{*/
+    /*font-size: 14px;*/
+    /*!*margin-left: 374px;*!*/
+    /*margin-top: 20px;*/
+    /*margin-bottom: 16px;*/
+/*}*/
+
+/*注册页面*/
+.register_height{
+    margin-bottom: 100px;
+}
+.call{
+    width: 210px;
+    height: 30px;
+}
+.dialog .name-style{
+    width: 210px;
+    height: 30px;
+}
+.name-style-range{
+    margin-left: 6px;
+}
+.email-style{
+    width: 428px;
+    height: 30px;
+}
+.password-style{
+    width: 428px;
+    height: 30px;
+}
+.form-control-year{
+    width: 140px;
+    height: 30px;
+}
+.form-control-month{
+    width: 140px;
+    height: 30px;
+}
+.form-control-day{
+    width: 140px;
+    height: 30px;
+}
+.tel-style{
+    width: 428px;
+    height: 30px;
+}
+/*.hight {*/
+    /*margin-top: 32px;*/
+/*}*/
+table{
+    font-family: 微软雅黑;
+}
+table tr td {
+    height: 50px;
+
+}
+
+table tr td.left {
+
+    text-align: right;
+
+}
+
+.dialog-style{
+    background-color: #E5E5E5;
+    border:#E5E5E5 1px solid;
+    outline: none;
+    border-radius: inherit;
+
+}
+.dialog-input{
+    padding-left: 6px;
+    padding-top:4px;
+    padding-bottom: 4px;
+    box-shadow: none;
+}
+
+/*注册按钮样式*/
+.register-dialog .register-dialog-reg-btn {
+    font-size: 14px;
+    font-family: 微软雅黑;
+    padding: 8px 30px 6px;
+    outline: none;
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    float: left;
+    margin-left: 70px;
+    margin-top: 20px;
+
+}
+
+.checkbox-register{
+    margin-top: 30px;
+    margin-left:72px;
+    font-family: 微软雅黑;
+
+}
+.checkbox-register h6{
+    margin-left:18px;
+    margin-top: 6px;
+    font-family: 微软雅黑;
+}
+
+.input-checkbox{
+    margin-left: -20px;
+    margin-top: 6px;
+
+}

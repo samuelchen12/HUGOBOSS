@@ -1,0 +1,150 @@
+body{
+    color: #333333;
+    font-family: 微软雅黑;
+    font-size:12px;
+}
+.top {
+    height: 115px;
+}
+
+.nav {
+    height: 37px;
+}
+
+.main {
+    width: 1200px;
+    height: 960px;
+    margin: auto;
+}
+
+.main_top {
+    background-color: #ffffff;
+    font-size: 14px;
+
+}
+
+.main_top li {
+    font-size: 0.6875rem;
+
+}
+
+.main_top li a {
+    color: #666666;
+    font-size: 0.6875rem;
+}
+
+.main_top a {
+    color: #666666;
+    font-size: 0.6875rem;
+}
+
+/*详情页图片*/
+.primary{
+    float: none;
+    clear: both;
+}
+.primary .primary_content{
+    border: 0 none;
+    width: 100%;
+    padding-bottom: 0;
+    padding-top:0;
+    padding-right: 0;
+    padding-left: 20px;
+    position: relative;
+}
+.primary_conten_main_product{
+    float: left;
+    width: 96%;
+    margin-left: 1px;
+}
+.primary_conten_main_product_mobile{
+    display: none;
+    position: relative;
+}
+.primary_conten_main_product_mobile .swiper_container{
+    max-height: 37em;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    backface-visibility: hidden;
+    z-index:1;
+}
+.swiper_wrapper{
+    position: relative;
+    width:100%;
+    transition-property: transform,left,top,-webkit-transform;
+    transition-duration: 0s;
+    transition-timing-function: ease;
+    box-sizing: content-box;
+}
+.swiper_slide{
+    max-height: 37em;
+    text-align: center;
+    float: left;
+}
+.swiper_slide img{
+    border:0;
+    max-height: 37em;
+    width:auto;
+}
+.clickToZoo{
+    display: none;
+    font-size: 0.6875rem;
+    font-family: 微软雅黑;
+    font-weight: normal;
+    clear: both;
+    text-align: center;
+    margin-left: 4em;
+}
+.tapToZoom{
+    display: none;
+    font-size: 0.6875rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-weight: normal;
+    clear: both;
+    text-align: center;
+}
+.swiper_pagination{
+    clear: both;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.primary_conten_main_product_mobile .swiper_next{
+    right:0;
+    text-align: right;
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    font-size: 2em;
+    z-index:2;
+    margin-top: -1.5em;
+    top:50%;
+    background-color: transparent;
+    color: #000 !important;
+    padding: 0;
+}
+
+.swiper_next .hidden{
+    display: none;
+}
+.primary_conten_main_product_mobile .swiper_prev{
+    left:0;
+    text-align: left;
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    font-size: 2em;
+    z-index:2;
+    margin-top: -1.5em;
+    top:50%;
+    background-color: transparent;
+    color: #000 !important;
+    padding: 0;
+}
+
+.primary_image{
+
+}

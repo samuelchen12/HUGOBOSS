@@ -1,0 +1,118 @@
+.small{
+    min-width: 1200px;
+}
+.xiao{
+    height: 160px;
+    margin: 0 auto;
+    background-color: black;
+    width: 1201px;
+    color: white;
+    font-size: 25px;
+}
+.centar-pay{
+    margin-top: 60px;
+    margin-bottom: 5px;
+    margin-left: 480px;
+    /*margin-right: auto;*/
+    width: 400px;
+    height: 420px;
+    border: 1px solid white;
+}
+.rad-text{
+    /*margin-top: 5px;*/
+    /*border: 1px solid black;*/
+    /*margin: auto 56px;*/
+    font-size: 25px;
+   /*font-weight: 900;*/
+    color:black;
+    /*letter-spacing: 20px;*/
+}
+.rad-text i{
+    margin-left: 60px;
+    float: left;
+}
+.rad-text h3{
+    float: left;
+    margin-left:26px;
+    font-weight: bolder;
+    /*margin-top: -52px;*/
+    /*margin-bottom: 20px;*/
+}
+.infa{
+    width: 385px;
+    /*border: 1px solid black;*/
+    margin-top: 30px;
+    margin-left: 5px;
+    color: #ababab;
+    font-size: 14px;
+}
+.ways{
+    /*margin-top: px;*/
+    padding-left: 84px;
+    width: 380px;
+    /*border: 1px solid black;*/
+}
+.ways span{
+
+    margin-left: 55px;
+}
+
+.numbers{
+    padding-left: 96px;
+    margin-top: 30px;
+    width: 380px;
+    /*border: 1px solid black;*/
+}
+.numbers span{
+    margin-left: 55px;
+}
+.names{
+    padding-left: 108px;
+    margin-top: 30px;
+    width: 380px;
+    /*border: 1px solid black;*/
+}
+.names span{
+    margin-left: 55px;
+}
+.prices{
+    padding-left: 80px;
+    margin-top: 30px;
+    width: 380px;
+    /*border: 1px solid black;*/
+}
+.prices span{
+    margin-left: 55px;
+    color: black;
+}
+.bots{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    /*margin: 50px auto;*/
+    color: white;
+}
+.bots input{
+    font-size: 14px;
+    border: none;
+    margin-left: 50px;
+    width: 124px;
+    height: 40px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: black;
+}
+.bots input i{
+    margin-top: 3px;
+    float: left;
+    margin-left: 22px;
+}
+.bots input span{
+    margin-left: -20px;
+}
+.sidess{
+    margin: 0 auto;
+    width: 80%;
+    border:  1px solid #cbcbcb;
+}

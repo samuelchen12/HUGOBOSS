@@ -1,0 +1,95 @@
+/*
+    author:xi.wu
+    datetime:2016-03-29
+    scope:register.html
+*/
+.register .form-control{
+    padding:0;
+}
+.register .container{
+    width: 1200px;
+}
+.login .container{
+    width: 1200px;
+}
+/*
+    author:xi.wu
+    datetime:2016-03-30
+    scope:login.html
+*/
+.login-dialog .form-group{
+    margin-left:-16px;
+}
+.social-links ul{
+   padding: 0;
+}
+/*
+    author:xi.wu
+    datetime:2016-04-01
+    scope:forget_password.html
+*/
+.password .container{
+    width: 1200px;
+}
+
+
+/*
+    author:tiantian.bai
+    datetime:2016-04-05
+    scope:index.html
+*/
+.index .container{
+   width: 1200px;
+}
+/*
+    author:zhimin.lin
+    datetime:2016-04-07
+    goods-lists.html
+*/
+.indel {
+    min-width: 1200px;
+}
+/*
+    author:zhi min.lin
+    datetime:2016-04-07
+    pay-lose.html
+*/
+.small{
+    min-width: 1200px;
+}
+/*
+    author:zhi min.lin
+    datetime:2016-04-07
+    pay-success.html
+*/
+.min-small{
+    min-width: 1200px;
+}
+/*
+    author:zhi min.lin
+    datetime:2016-04-07
+    nonentity.html
+*/
+.act-width{
+    min-width: 1200px;
+}
+
+/*
+    author:zhi min.lin
+    datetime:2016-04-08
+    goods-lists.html
+*/
+.show-nav .select{
+    background-color: black;
+}
+
+.vn {
+    margin-left: -26px;
+}
+
+.shopping-car .container{
+    width: 1200px;
+}
+.good-details .container{
+    width: 1200px;
+}

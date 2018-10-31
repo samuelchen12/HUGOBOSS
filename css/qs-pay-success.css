@@ -1,0 +1,123 @@
+.min-small{
+min-width: 1200px;
+}
+.bai{
+    background-color: black;
+    color: white;
+    height: 160px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 25px;
+    width: 1200px;
+}
+.center-pay{
+    /*margin-top: 30px;*/
+    margin-left: 480px;
+    /*margin-right: auto;*/
+    width: 400px;
+    height: 500px;
+    margin-bottom: -30px;
+    border: 1px solid white;
+}
+.red-text{
+    margin-top: 60px;
+    /*border: 1px solid black;*/
+    /*margin: auto 56px;*/
+    font-size: 20px;
+    font-weight: 600;
+    color:black;
+    /*letter-spacing: 20px;*/
+}
+.red-text i{
+    margin-top: 8px;
+    margin-left: 60px;
+    float: left;
+}
+.red-text h3{
+    float: left;
+    margin-left:26px;
+    font-weight: bolder;
+    /*margin-top: -52px;*/
+   /*margin-bottom: 20px;*/
+}
+.info{
+    width: 385px;
+    /*border: 1px solid black;*/
+    margin-top: 40px;
+    margin-left: 5px;
+    color: #ababab;
+    font-size: 14px;
+}
+.way{
+    /*margin-top: 80px;*/
+    padding-left: 84px;
+    width: 380px;
+    /*border: 1px solid black;*/
+}
+.way span{
+
+margin-left: 55px;
+}
+
+.number{
+    padding-left: 96px;
+    margin-top: 30px;
+    width: 380px;
+    /*border: 1px solid black;*/
+}
+.number span{
+    margin-left: 55px;
+}
+.name{
+    padding-left: 108px;
+    margin-top: 30px;
+    width: 380px;
+    /*border: 1px solid black;*/
+}
+.name span{
+    margin-left: 55px;
+}
+.price{
+    padding-left: 80px;
+    margin-top: 30px;
+    width: 380px;
+    /*border: 1px solid black;*/
+}
+.price span{
+    margin-left: 55px;
+  color: black;
+}
+.bot{
+    /*margin: 50px auto;*/
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: white;
+}
+.bot img{
+    border:1px solid black;
+    /*margin-left: 100px;*/
+}
+.bot input{
+    border: none;
+    margin-left: 50px;
+    width: 124px;
+    height: 40px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: black;
+}
+.bot input i{
+    margin-top: 3px;
+    float: left;
+    margin-left: 22px;
+}
+.bot input span{
+    margin-left: -20px;
+}
+.sides{
+    margin: 0 auto;
+    width: 80%;
+border:  1px solid #cbcbcb;
+}

@@ -1,0 +1,175 @@
+.login-line{
+    border-left: #E5E5E5 1px solid;
+    font-family: 微软雅黑;
+}
+
+/*面包屑*/
+.login{
+    min-width: 1200px;
+    color: #333333;
+    /*font-family:微软雅黑;*/
+    font-size: 12px;
+
+}.login_height{
+     margin-bottom: 100px;
+ }
+.login .breadcrumb{
+    font-family: 微软雅黑;
+}
+.login .breadcrumb a{
+    font-size: 12px;
+    padding:0 1.6px 3.2px;
+    color: #000;
+    text-decoration:none;
+}
+.login .breadcrumb-background{
+    margin-top: 8px;
+    background-color: #ffffff;
+    font-family:微软雅黑;
+}
+.login .breadcrumb-last{
+    font-weight: normal;
+    color: #000;
+}
+
+/*左边文字*/
+.primary-content{
+
+}
+.primary-content .login-text{
+    margin-top: 20px;
+    font-family: 微软雅黑;
+}
+.primary-content .login-text h2{
+    font-size: 18px;
+    margin-left: 16px;
+    color: #000;
+}
+.primary-content .login-text h3{
+    font-size: 16px;
+    margin-left: 16px;
+    color:#000;
+}
+.primary-content .login-text p{
+    font-size: 12px;
+    margin-left: 16px;
+    color: #333333;
+}
+
+/*登录框架*/
+.login-dialog{
+    margin-left: 30px;
+    font-family: 微软雅黑;
+}
+.login-dialog .dialog-width{
+    width: 276px;
+    height: 30px;
+}
+.login-dialog .dialog-style{
+    background-color: #E5E5E5;
+    border:#E5E5E5 1px solid;
+    border-radius: inherit;
+
+}
+.login-dialog .checkbox-login{
+    margin-left: -14px;
+}
+.login-dialog .checkbox-login .checkbox_top{
+    margin-top: 2px;
+}
+
+.login-dialog .login-dialog-btn{
+    font-size: 14px;
+    padding: 8px 30px 8px;
+    outline: none;
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    float: left;
+    margin-top: 20px;
+    margin-left: -16px;
+}
+.checkbox-password a{
+    color: #333333;
+    text-decoration: none;
+}
+.checkbox-password {
+    float: left;
+    margin-top: 28px;
+    margin-left: 90px;
+    color: #000;
+}
+
+/*社交登录模块*/
+.social-links{
+    margin-top: 80px;
+    font-family: 微软雅黑;
+
+}
+.social-links p{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.social-links ul.service-link li{
+    float: left;
+    line-height: 20px;
+    list-style:none;
+    margin-left: 20px;
+
+}
+.social-links  li a{
+    color: #333333;
+    text-decoration:none;
+}
+
+/*右边注册的信息说明*/
+
+.login-line{
+    margin-top: 6px;
+}
+.login-line .new-user{
+    margin-top: 56px;
+    margin-left: 20px;
+}
+.login-line .new-user h4{
+    font-size: 18px;
+    margin-left: 22px;
+
+}
+.login-line .user-reg p{
+    margin-left: 42px;
+    margin-top:20px ;
+}
+
+.login-line ul.user-regtext li{
+    margin-top: 8px;
+    margin-left: 18px;
+    color: #333333;
+}
+.login-line .reg-btn{
+    margin-top: 30px;
+    margin-left:168px;
+}
+
+.login-line .login-dialog-reg{
+    margin-top: 30px;
+    margin-left:168px;
+}
+.login-line .login-dialog-reg .login-dialog-reg-btn {
+    font-size: 14px;
+    padding: 8px 30px 8px;
+    outline: none;
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    float: left;
+    margin-left: -126px;
+
+}
+.login-dialog-reg-btn-color a{
+    color: #fff;
+    text-decoration: none;
+}
+
+

@@ -1,0 +1,29 @@
+.index{
+    min-width: 1200px;
+}
+.index-header .header-left{
+    margin-top: 12px;
+}
+.index-header .header-left a{
+    cursor:default;
+    text-decoration: none;
+}
+.index-header .header-left i{
+    display:block;
+}
+
+.index-header .header-email .email{
+    width:183px;
+    height:20px;
+    line-height:18px;
+    color:#666666;
+    border-radius: inherit;
+}
+
+.index-header .header-email .email-input{
+    height:20px;
+    line-height:14px;
+    margin-top: -20px;
+    position: absolute;
+    margin-left: 182px;
+}
